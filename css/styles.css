@@ -1,0 +1,249 @@
+/* Veriables */
+:root {
+    --text-color-dark: #212121;
+    --text-color-light: #757575;
+    --background-color: #fff;
+    --secondary-background-color: #F5F4FA;
+    --block-fon-color: #2F303A;
+    --accent-color: #2196F3;
+}
+
+/* Global styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--text-color-dark);
+    background-color: var(--background-color);
+}
+
+/* Common styles */
+.section {
+    background-color: var(--background-color);
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--text-color-dark);
+}
+
+.main-button {
+    color: #fff;
+    /* This in not accent color */
+    background: #2196F3;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: inherit;
+    line-height: 1.87;
+    color: #FFFFFF;
+}
+
+.button {
+    color: var(--text-color-dark);
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: 0;
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+.button:hover,
+.button:focus {
+    background-color: var(--accent-color);
+    color: var(--background-color);
+}
+
+.list {
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+/* Header */
+.header {
+    background-color: var(--background-color);
+}
+
+.logo {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    color: var(--text-color-dark);
+}
+
+.logo>span {
+    color: var(--accent-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--text-color-dark);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--accent-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.info-list {
+    color: var(--text-color-light);
+    text-decoration: none;
+}
+
+.info-list:hover,
+.info-list:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+.hero-section {
+    background-color: var(--block-fon-color);
+}
+
+.site-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+/* Skils */
+.skils-section {
+    background-color: var(--background-color);
+}
+
+.skils-section-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--text-color-dark);
+    text-transform: uppercase;
+}
+
+.skils-section-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--text-color-light);
+}
+
+/* Our works */
+.result-section {
+    background-color: var(--background-color);
+}
+
+/* Team */
+.team-section {
+    background-color: var(--secondary-background-color);
+}
+
+.team-section-list {
+    background: var(--background-color);
+}
+
+.team-section-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-color-dark);
+}
+
+.team-section-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--text-color-light);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--block-fon-color);
+    color: var(--background-color);
+}
+
+.list-footer {
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.maps-link {
+    color: var(--background-color);
+    text-decoration: none;
+}
+
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+
+/* Second page */
+
+.main-section {
+    background-color: var(--background-color);
+}
+
+.preview-section {
+    background-color: var(--background-color);
+}
+
+.preview-section-list {
+    background-color: var(--background-color);
+}
+
+.preview-section-list h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-color-dark);
+}
+
+.preview-section-list p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color-light)
+}
+/* hiden */
+.menu>h1 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    }
